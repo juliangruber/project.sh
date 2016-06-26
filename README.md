@@ -1,17 +1,23 @@
 
 # project.sh
 
-Navigate and manage source code repositories from GitHub, following the convention
+Tools to navigate and manage source code repositories living on GitHub.
+
+To clone this repository for example, run:
+
+```bash
+$ clone juliangruber project.sh
+```
+
+The directory structure created is:
 
 ```
 $ROOT/$ORG/$REPO
 ```
 
-With $ROOT set to `~/dev/` for example, this command would clone this repo into `~/dev/juliangruber/project.sh` and change into it:
+With $ROOT set to `~/dev/` for example, this repository will have been cloned
+to `~/dev/juliangruber/project.sh`.
 
-```bash
-$ clone juliangruber project.sh
-```
 
 ## Installation
 
