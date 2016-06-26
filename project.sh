@@ -1,7 +1,7 @@
 PROJ_ROOT=~/dev
 
 goto() {
-  cd $PROJ_ROOT/$1/$2 || clone $1 $2
+  cd $PROJ_ROOT/$1/$2 2>/dev/null || clone $1 $2
 }
 
 clone() {
