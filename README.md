@@ -7,21 +7,17 @@
   <strong><pre>$ROOT/$ORG/REPO</pre></strong>
 </div>
 
-<br /><br /><br />
+<br />
 
-To clone this repository for example, run:
+## Example
+
+To clone this repository, run:
 
 ```bash
 $ clone juliangruber project.sh
 ```
 
-The directory structure created is:
-
-```
-$ROOT/$ORG/$REPO
-```
-
-With $ROOT set to `~/dev/` for example, this repository will have been cloned
+With $ROOT set to `~/dev/`, this repository will have been cloned
 to `~/dev/juliangruber/project.sh`.
 
 
