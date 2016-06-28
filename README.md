@@ -2,7 +2,7 @@
 <h1 align="center">project.sh</h1>
 
 <div align="center">
-  $ROOT/$ORG/REPO
+  __`$ROOT/$ORG/REPO__`
 </div>
 
 Tools to navigate and manage source code repositories living on GitHub.
