@@ -7,6 +7,8 @@
   <strong><pre>$ROOT/$ORG/REPO</pre></strong>
 </div>
 
+---
+
 To clone this repository for example, run:
 
 ```bash
