@@ -1,11 +1,11 @@
 
 <h1 align="center">project.sh</h1>
 
+<h5 align="center">Tools to navigate and manage source code repositories living on GitHub.</h5>
+
 <div align="center">
   <strong><pre>$ROOT/$ORG/REPO</pre></strong>
 </div>
-
-Tools to navigate and manage source code repositories living on GitHub.
 
 To clone this repository for example, run:
 
