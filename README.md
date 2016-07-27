@@ -14,12 +14,19 @@
 To clone this repository, run:
 
 ```bash
-$ clone juliangruber project.sh
+$ goto juliangruber project.sh
 ```
 
 With $ROOT set to `~/dev/`, this repository will have been cloned
 to `~/dev/juliangruber/project.sh`.
 
+For projects already cloned, tab completion can be used to navigate more swiftly:
+
+```bash
+$ goto ju<TAB>
+$ goto juliangruber pro<TAB>
+$ goto juliangruber project.sh
+```
 
 ## Installation
 
