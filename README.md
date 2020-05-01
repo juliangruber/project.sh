@@ -17,7 +17,7 @@ To clone this repository, run:
 $ goto juliangruber project.sh
 ```
 
-With $ROOT set to `~/dev/`, this repository will have been cloned
+With `$RPOJ_ROOT` set to `~/dev/`, this repository will have been cloned
 to `~/dev/juliangruber/project.sh`.
 
 For projects already cloned, tab completion can be used to navigate more swiftly:
