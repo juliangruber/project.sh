@@ -55,7 +55,7 @@ Clone the project from `https://github.com/$ORG/$REPO` into `$ROOT/$ORG/$REPO` a
 
 ## Configuration
 
-You only need to set `PROJ_ROOT` to your project root.
+You can optionally set `PROJ_ROOT` to your project root. It defaults to `~/dev`.
 
 ## Kudos
 
