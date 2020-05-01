@@ -4,7 +4,7 @@
 <h5 align="center">Tools to navigate and manage source code repositories living on GitHub.</h5>
 
 <div align="center">
-  <strong><pre>$ROOT/$ORG/$REPO</pre></strong>
+  <strong><pre>$PROJ_ROOT/$ORG/$REPO</pre></strong>
 </div>
 
 <br />
@@ -17,7 +17,7 @@ To clone this repository, run:
 $ goto juliangruber project.sh
 ```
 
-With `$RPOJ_ROOT` set to `~/dev/`, this repository will have been cloned
+With `$PROJ_ROOT` set to `~/dev/`, this repository will have been cloned
 to `~/dev/juliangruber/project.sh`.
 
 For projects already cloned, tab completion can be used to navigate more swiftly:
@@ -45,13 +45,13 @@ bashcompinit
 
 ## Functions
 
-### goto $ORG $REPO
+### `goto $ORG $REPO`
 
-Go to `$ROOT/$ORG/REPO`. If this directory does _not_ exist, the project will be cloned for you. This makes it the main function to use.
+Go to `$PROJ_ROOT/$ORG/REPO`. If this directory does _not_ exist, the project will be cloned for you. This makes it the main function to use.
 
-### clone $ORG $REPO
+### `clone $ORG $REPO`
 
-Clone the project from `https://github.com/$ORG/$REPO` into `$ROOT/$ORG/$REPO` and cd into the directory.
+Clone the project from `https://github.com/$ORG/$REPO` into `$PROJ_ROOT/$ORG/$REPO` and cd into the directory.
 
 ## Configuration
 
