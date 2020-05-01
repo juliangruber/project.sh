@@ -35,6 +35,14 @@ source project.sh
 export PROJ_ROOT=~/dev/
 ```
 
+If you use `zsh(1)`, be sure to run this first:
+
+```zsh
+autoload compinit bashcompinit
+compinit
+bashcompinit
+```
+
 ## Functions
 
 ### goto $ORG $REPO
